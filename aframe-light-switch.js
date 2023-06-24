@@ -1,3 +1,8 @@
+// aframe-light-switch.js - github.com/disketteomelette
+// Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+// You are free to share and adapt this script, giving appropiate credit to author and 
+// indicating if changes were made, without any other additional restrictions ;)
+
       AFRAME.registerComponent('set-light', {
         schema: {
           intensity: { type: 'number', default: 1 },
