@@ -1,6 +1,8 @@
 # aframe-light-switch
 A light switch for a-frame /// This is a simple and customizable component for the A-Frame library that enables you to adjust the intensity of one or all <a-light> elements in a scene using clickable objects. It provides a straightforward schema where the clickable object references the "set-light" component. Within this component, users can specify the desired intensity value using the "intensity" parameter. Additionally, the "lights" parameter allows you to select the lights to be affected by the action. You can choose to modify all lights in the scene (by leaving the parameter empty), a specific light, or multiple lights by separating their IDs with commas.
 
+See live demo: https://honorable-round-cacao.glitch.me/
+
 Example:
         
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
